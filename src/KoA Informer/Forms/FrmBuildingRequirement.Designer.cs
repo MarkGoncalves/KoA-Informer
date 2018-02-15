@@ -104,6 +104,8 @@
             // 
             // CbBuildings
             // 
+            this.CbBuildings.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.CbBuildings.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.CbBuildings.DataSource = this.BsBuildings;
             this.CbBuildings.DisplayMember = "Name";
             this.CbBuildings.FormattingEnabled = true;

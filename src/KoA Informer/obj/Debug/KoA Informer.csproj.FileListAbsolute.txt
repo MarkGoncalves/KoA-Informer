@@ -17,3 +17,21 @@ C:\Users\msgoncalves\Documents\Particular\KoA\KoA Informer\obj\Debug\KoA Informe
 C:\Users\msgoncalves\Documents\Particular\KoA\KoA Informer\obj\Debug\KoA Informer.csproj.CoreCompileInputs.cache
 C:\Users\msgoncalves\Documents\Particular\KoA\KoA Informer\obj\Debug\KoA Informer.exe
 C:\Users\msgoncalves\Documents\Particular\KoA\KoA Informer\obj\Debug\KoA Informer.pdb
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA Informer.csprojResolveAssemblyReference.cache
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\CCVD.Win.Design.AguardeBox.resources
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\CCVD.Design.TabControlEx.resources
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\CCVD.Design.TabPageEx.resources
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA_Informer.Forms.FrmBuildingLevel.resources
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA_Informer.Forms.FrmMaterialRequirement.resources
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA_Informer.Forms.FrmBuildingRequirement.resources
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA_Informer.FrmMain.resources
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA_Informer.Forms.FrmBuilding.resources
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA_Informer.Forms.FrmMaterial.resources
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA_Informer.Properties.Resources.resources
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA Informer.csproj.GenerateResource.Cache
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA Informer.csproj.CoreCompileInputs.cache
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\bin\Debug\KoA Informer.exe.config
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\bin\Debug\KoA Informer.exe
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\bin\Debug\KoA Informer.pdb
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA Informer.exe
+C:\Users\msgoncalves\Documents\Particular\KoA\src\KoA Informer\obj\Debug\KoA Informer.pdb

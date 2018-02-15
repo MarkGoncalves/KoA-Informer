@@ -145,7 +145,7 @@ namespace KoA_Informer.Forms
 
         private void GridBuildRequirements_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
-            if (e.ColumnIndex == Building.Index)
+            if (e.ColumnIndex == Building.Index && e.Value != null)
                 e.Value = Buildings.First(a => a.Id.Equals(((Building)e.Value).Id));
         }
 

@@ -42,15 +42,15 @@ namespace KoA_Informer
                 col.FindAll()
                     .ForEach(build =>
                     {
-                        var leveis =
-                            db.GetCollection<BuildingLevel>()
-                                .FindAll()
-                                .Where(a => a.Building.Id == build.Id)
-                                .ToList();
+                        //var leveis =
+                        //    db.GetCollection<BuildingLevel>()
+                        //        .FindAll()
+                        //        .Where(a => a.Building.Id == build.Id)
+                        //        .ToList();
 
-                        for (var i = leveis.Any() ? leveis.Count : 1; i <= 35; i++)
+                        for (var i = 1; i <= 35; i++)
                         {
-                            if (db.GetCollection<BuildingLevel>().Exists(a => a.Level == i)) continue;
+                            if (db.GetCollection<BuildingLevel>().Exists(a => a.Building.Id == build.Id && a.Level == i)) continue;
 
                             var level = new BuildingLevel
                             {
