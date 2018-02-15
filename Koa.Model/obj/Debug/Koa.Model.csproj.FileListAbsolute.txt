@@ -1,0 +1,5 @@
+C:\Users\msgoncalves\Documents\Particular\KoA\Koa.Model\bin\Debug\Koa.Model.dll
+C:\Users\msgoncalves\Documents\Particular\KoA\Koa.Model\bin\Debug\Koa.Model.pdb
+C:\Users\msgoncalves\Documents\Particular\KoA\Koa.Model\obj\Debug\Koa.Model.csproj.CoreCompileInputs.cache
+C:\Users\msgoncalves\Documents\Particular\KoA\Koa.Model\obj\Debug\Koa.Model.dll
+C:\Users\msgoncalves\Documents\Particular\KoA\Koa.Model\obj\Debug\Koa.Model.pdb
