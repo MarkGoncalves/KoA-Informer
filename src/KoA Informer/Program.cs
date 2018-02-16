@@ -83,7 +83,8 @@ namespace KoA_Informer
                 .DbRef(x => x.Materials, "MaterialRequirement");
 
             mapper.Entity<BuildingRequirement>()
-                .DbRef(x => x.BuildingLevel, "BuildingLevel");
+                .DbRef(x => x.BuildingLevel, "BuildingLevel")
+                .DbRef(x => x.Requirement, "Requirement");
 
             mapper.Entity<MaterialRequirement>()
                 .DbRef(x => x.Material, "Material");

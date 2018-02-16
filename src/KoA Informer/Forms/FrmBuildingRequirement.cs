@@ -9,7 +9,7 @@ using Koa.Model;
 
 namespace KoA_Informer.Forms
 {
-    public partial class FrmBuildingRequirement : Form
+    public partial class FrmBuildingRequirement : FormBase
     {
         public FrmBuildingRequirement()
         {
@@ -54,11 +54,6 @@ namespace KoA_Informer.Forms
 
         private void BtnGravar_Click(object sender, EventArgs e)
         {
-            DataBase.Executar<BuildingRequirement>((db, col) =>
-            {
-                if (BsDados.Current is BuildingRequirement item)
-                    col.Upsert(item);
-            });
             DataBase.Executar<BuildingLevel>((db, col) =>
             {
                 var build = col
@@ -69,7 +64,13 @@ namespace KoA_Informer.Forms
                     build.Requirements.Add(BuildingRequirement);
 
                     col.Upsert(build);
+                    BuildingRequirement.Requirement = build;
                 }
+            });
+            DataBase.Executar<BuildingRequirement>((db, col) =>
+            {
+                //if (BsDados.Current is BuildingRequirement item)
+                col.Upsert(BuildingRequirement);
             });
 
             DialogResult = DialogResult.OK;

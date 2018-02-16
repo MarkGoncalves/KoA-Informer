@@ -116,6 +116,9 @@
     <Compile Include="Design\Infra\Controles\TipoNumero.cs" />
     <None Include="Design\Infra\DI\ConfigNatsProvider.cs" />
     <None Include="Design\Infra\DI\IoC.cs" />
+    <Compile Include="Forms\FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\FrmMaterialRequirement.cs">
       <SubType>Form</SubType>
     </Compile>

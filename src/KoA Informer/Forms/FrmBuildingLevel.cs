@@ -58,6 +58,14 @@ namespace KoA_Informer.Forms
             {
                 DataBase.Executar<BuildingRequirement>((db, col) =>
                 {
+                    var teste =
+                        col
+                            .Include(a => a.Requirement)
+                            .Find(a => a.BuildingLevel.Id == buildingLevel.Id)
+                            //.Select(a => a.Requirement)
+                            .ToList();
+
+
                     BsBuildRequirements.DataSource =
                         col
                             .Include(a => a.Requirement)
